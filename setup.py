@@ -1,14 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="UploadFiles for Django",
+    name="django-uploadfiles",
     version=__import__("uploadfiles").__version__,
     description="Мульти аплоад файлес",
     long_description=open('README.rst').read(),
     author="Krulikovskiy Nikita",
     author_email="it@krulikovskiy.com",
     url="https://github.com/krulikovskiy/django-uploadfiles",
-    packages=['uploadfiles'],
+    packages=find_packages(),
+    include_package_data=True,
     install_requires=[
         'django>=2.0',
     ],
@@ -18,5 +19,4 @@ setup(
         "Framework :: Django",
     ],
     zip_safe=False,
-    include_package_data=True,
 )
