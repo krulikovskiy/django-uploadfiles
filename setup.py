@@ -8,7 +8,7 @@ setup(
     author="Krulikovskiy Nikita",
     author_email="it@krulikovskiy.com",
     url="https://github.com/krulikovskiy/django-uploadfiles",
-    packages='uploadfiles',
+    packages=['uploadfiles'],
     install_requires=[
         'django>=2.0',
     ],
