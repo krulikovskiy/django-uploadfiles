@@ -8,8 +8,9 @@ setup(
     author="Krulikovskiy Nikita",
     author_email="it@krulikovskiy.com",
     url="https://github.com/krulikovskiy/django-uploadfiles",
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests*']),
     include_package_data=True,
+    license='BSD',
     install_requires=[
         'django>=2.0',
     ],
