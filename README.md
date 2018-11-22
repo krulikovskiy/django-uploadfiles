@@ -1,7 +1,7 @@
 ﻿# django-uploadfiles
 
 Установка
-pip install https://github.com/krulikovskiy/django-autodeploy/archive/master.zip
+pip install https://github.com/krulikovskiy/django-uploadfiles/archive/master.zip
 
 Добавить в project/settings.py
 
