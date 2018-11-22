@@ -1,0 +1,27 @@
+.inline-uploadfiles-form {
+    display: none;
+}
+
+.inline-group .tabular fieldset.module {
+    position: relative;
+}
+
+.inline-group .tabular fieldset.module .inline-uploadfiles-link {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: block;
+    float: left;
+    padding: 3px 12px;
+    background: #999;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.inline-group .tabular fieldset.module .inline-uploadfiles-link:hover {
+    background-color: #417690;
+}
